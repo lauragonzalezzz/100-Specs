@@ -12,7 +12,7 @@ var unicorn = null;
  * then assign it to be the value of "Atari"
  *
  */
-
+var videogame_system = 'Atari';
 
 /* Step 3
  *
@@ -20,7 +20,7 @@ var unicorn = null;
  * and assign the value of sahara_animal to "The Addax"
  *
  */
-
+var sahara_animal = 'The Addax';
 
 /* Step 4
  *
@@ -29,7 +29,7 @@ var unicorn = null;
  * each planet in our solar system, in order of distance from the sun
  * Capitalize the names.
  */
-
+var planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'];
 
 /* Step 5
  *
@@ -38,7 +38,7 @@ var unicorn = null;
  * each galilean moon of Jupiter
  *
  */
-
+var galilean_moons = ['io', 'europa', 'ganymede', 'callisto'];
 
 /* Step 6 φ
  *
@@ -46,7 +46,7 @@ var unicorn = null;
  * and assign the value of golden_ratio to 1.61803398874
  *
  */
-
+ var golden_ratio = 1.61803398874;
 
 /* Step 7
  *
@@ -54,7 +54,7 @@ var unicorn = null;
  * and assign the value of earths_water_composition to 0.71
  *
  */
-
+var earths_water_composition = 0.71;
 
 /* Step 8
  *
@@ -63,7 +63,7 @@ var unicorn = null;
  *
  */
 
-
+var club_name = 'Fight Club';
 /* Step 9
  *
  * Define a literal object named "gender"
@@ -74,6 +74,11 @@ var unicorn = null;
  *   unknown => undefined
  */
 
+var gender = {
+	female : 'female',
+	male : 'male',
+	unknown : undefined
+};
 
 /* Step 10
  *
@@ -87,7 +92,12 @@ var unicorn = null;
  *   gender  => gender.female
  *
  */
-
+var princess_leia = {
+	name : 'Leia Organa',
+	money : 890,
+	age : 20,
+	gender : gender.female
+}
 
 /* Step 11
  *
@@ -100,8 +110,12 @@ var unicorn = null;
  *   jsonformatter.curiousconcept.com => "104.28.5.70"
  *
  */
-
-
+var domains = {
+	'ycombinator.com' : '198.41.190.47',
+	'laughingsquid.com' :'162.159.247.97',
+	'slumlordhosting.com' : '198.61.179.126',
+	'jsonformatter.curiousconcept.com' : '104.28.5.70'
+}
 /* Step 12
  *
  * Define a literal object named "browsers"
@@ -116,7 +130,14 @@ var unicorn = null;
  *
  */
 
-
+var browsers = {
+	Chromium : 'google.com',
+	Safari : 'apple.com',
+	Opera : 'opera.com',
+	Firefox : 'mozilla.org',
+	Sleipnir : 'fenrir-inc.com',
+	Konqueror : 'konqueror.org'
+};
 /* Step 13
  *
  * Define a literal object named "rainbow"
@@ -134,6 +155,18 @@ var unicorn = null;
  *
  */
 
+var rainbow = {
+	colors : {
+		red : '#F0280A',
+		orange : '#FF8800',
+		yellow : '#FFDD00',
+		green : '#51AB0C',
+		blue : '#1593ED',
+		indigo : '#5215ED',
+		violet : '#A915ED'
+	},
+	isDouble : true
+}
 
 /* Step 14
  *
