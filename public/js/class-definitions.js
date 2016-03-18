@@ -265,8 +265,12 @@ var scmList = ['git', 'svn', 'mercurial', 'bazaar', 'cvs'];
  */
 var beers = {
 	IPA : 'Ale',
-	Lager : 'Strong'
-}
+	Lager : 'Strong',
+	Heffeweisen : 'German',
+	Stout : ['Thick', 'Dark'],
+	Porter : 'Bitter',
+	Ale : ['Light', 'Golden']
+};
 
 /* Step 20
  *
@@ -277,6 +281,9 @@ var beers = {
  *
  */
 
+function sahara_river() {
+	return 'Nile River';
+}
 
 /* Step 21
  *
@@ -289,7 +296,9 @@ var beers = {
  *
  */
 
-
+function addNumbers(x,y) {
+	return x + y;
+}
 /* Step 22
  *
  * Define a function named "installLinux"
@@ -301,7 +310,14 @@ var beers = {
  * @return {Bool}
  *
  */
-
+function installLinux(type) {
+	for (var i = 0; i < linuxFlavors.length; i++) {
+		if (linuxFlavors.indexOf(type) !== -1) {
+			return true;
+		}
+		return false;
+	}
+}
 
 /* Step 23
  *
@@ -321,7 +337,16 @@ var beers = {
  *
  */
 
+function drink(beer) {
+	for (var i = 0; i < beers.length; i++) {
 
+		if (beers.indexOf(beer) !== -1) {
+			var index = beers.indexOf(beer);
+			return 'This ' + beers[index] + ' is ' + 
+		}
+		return false;
+	}
+}
 /* Step 24
  *
  * Define a function named "browseURL" that takes
