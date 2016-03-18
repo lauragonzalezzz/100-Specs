@@ -182,6 +182,7 @@ var rainbow = {
  *
  */
 
+var linuxFlavors = ['Gentoo', 'Fedora', 'Debian', 'Slackware', 'Red Hat', 'Bieber Linux'];
 
 /* Step 15
  *
@@ -195,7 +196,7 @@ var rainbow = {
  * "cytosine"
  *
  */
-
+var DNA = ['nucleatides', 'guanine', 'adenine', 'thymine', 'cytosine'];
 
 /* Step 16
  *
@@ -208,7 +209,12 @@ var rainbow = {
  * Surface      => 320
  *
  */
-
+var laptopCosts = {
+	MacBook : 1500,
+	Alienware : 2500,
+	HP : 499,
+	Surface : 320
+}
 
 /* Step 17
  *
@@ -224,7 +230,7 @@ var rainbow = {
  * "Species"
  *
  */
-
+var livingOrganismClassification = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species'];
 
 /* Step 18
  *
@@ -238,7 +244,7 @@ var rainbow = {
  * "cvs"
  *
  */
-
+var scmList = ['git', 'svn', 'mercurial', 'bazaar', 'cvs'];
 
 /* Step 19
  *
@@ -257,7 +263,10 @@ var rainbow = {
  *                  "Golden"
  *
  */
-
+var beers = {
+	IPA : 'Ale',
+	Lager : 'Strong'
+}
 
 /* Step 20
  *
